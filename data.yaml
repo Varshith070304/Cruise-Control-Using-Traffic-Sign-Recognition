@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Crossing Sign', 'Curve Signs', 'Distance Board', 'Speed Limit', 'Traffic-Signal', 'Traffic-Signs']
+
+roboflow:
+  workspace: chandigarh-university-psvra
+  project: traffic-sign-detection-mvonk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chandigarh-university-psvra/traffic-sign-detection-mvonk/dataset/1
